@@ -1,0 +1,30 @@
+.digit {
+    background: url(img/blank-flipper.png) 0 0 no-repeat;
+        padding: 4px 9px 15px;
+        width: 100px;
+        height: 117px;
+        margin-left:-5px;
+        float: left;	
+            position: relative;
+}
+.digit .top, .digit .bot {
+    position: relative;
+}
+.digit .top {
+    height: 57px;
+}
+.digit .bot {
+    height: 60px;
+}
+
+.digit img {
+    position: absolute;
+    /* -moz-transform: translateZ(0); */        /* Firefox, commented out */
+    -webkit-transform: translateZ(0);           /* Safari and Chrome */
+}
+img.front {
+    z-index: 2;
+}
+img.back {
+    z-index: 1;
+}

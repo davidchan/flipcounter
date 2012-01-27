@@ -4,4 +4,4 @@ JavaScript flipping-number counter, uses jQuery but can be ported to use any lib
 
 Simple demo in index.html
 
-All images are royalty free, made by @pdon
+All images are royalty free, made by @[pdon](http://twitter.com/pdon).
